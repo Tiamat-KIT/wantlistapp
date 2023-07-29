@@ -27,4 +27,8 @@ sequenceDiagram
  Controller->>Model:ログイン操作(Googleログイン)
  Model->>View:サービスの画面表示
  end
+ loop
+ end
+ alt calc
+ end
 ```
