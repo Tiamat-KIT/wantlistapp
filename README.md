@@ -27,7 +27,7 @@ sequenceDiagram
  Controller->>Model:ログイン操作(Googleログイン)
  Model->>View:サービスの画面表示
  end
- loop
+ loop ほしいものを追加する
  Controller->>Model:WantItemの追加
  Model->>View:フォームで送られてきたデータを処理して表示
  end
