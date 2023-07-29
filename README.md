@@ -15,12 +15,16 @@
 
 ```mermaid
 sequenceDiagram
+ box red Client
  participant View
  participant Controller
+ end
+ box green Server
  participant Model
+ end
  alt LogIn/SignUp/SignIn
  Model->>View:ログイン画面のレンダリング
  Controller->>Model:ログイン操作(Googleログイン)
  Model->>View:サービスの画面表示
-end
+ end
 ```
