@@ -15,7 +15,6 @@
 
 ```mermaid
 sequenceDiagram
- box red Client
  participant View
  participant Controller
  participant Model
@@ -23,6 +22,5 @@ sequenceDiagram
  Model->>View:ログイン画面のレンダリング
  Controller->>Model:ログイン操作(Googleログイン)
  Model->>View:サービスの画面表示
- end
- end
+end
 ```
