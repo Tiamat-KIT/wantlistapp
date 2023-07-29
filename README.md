@@ -28,7 +28,11 @@ sequenceDiagram
  Model->>View:サービスの画面表示
  end
  loop
+ Controller->>Model:WantItemの追加
+ Model->>View:フォームで送られてきたデータを処理して表示
  end
  alt calc
+ Controller->>Model:現在の所持金を入力する
+ Model->>View:現在保管しているデータからどれだけ買えるかを表示
  end
 ```
