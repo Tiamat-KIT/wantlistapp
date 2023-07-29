@@ -15,7 +15,7 @@
 
 ```mermaid
 sequenceDiagram
- box red Client
+ box blue Client
  participant View
  participant Controller
  end
