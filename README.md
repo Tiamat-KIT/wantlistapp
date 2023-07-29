@@ -38,3 +38,13 @@ sequenceDiagram
 ```
 
 ## 使うライブラリ・フレームワーク
+|名前|バージョン|役割|
+|----|----|----|
+|React|v18|JSX構文によるHTMLの記述|
+|Next.js|v13.4|Webサイトの構成、サイト内のパスルーティングなど|
+|NextAuth|v4|Googleログイン周りの認証システム|
+|TailwindCSS|要チェック|基本的なCSSの導入|
+|daisyUI|要確認|CSSクラスコンポーネントの導入|
+
+### まだわからないもの
+tRPCとPrisma
